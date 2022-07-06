@@ -1,4 +1,4 @@
-package com.example.flangapp_app
+package com.example.cloudnita_app
 
 import io.flutter.embedding.android.FlutterActivity
 

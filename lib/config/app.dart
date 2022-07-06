@@ -1,5 +1,5 @@
-import 'package:flangapp_app/enum/action_type.dart';
-import 'package:flangapp_app/models/navigation_item.dart';
+import 'package:cloudnita_app/enum/action_type.dart';
+import 'package:cloudnita_app/models/navigation_item.dart';
 
 import '../enum/background_mode.dart';
 import '../enum/load_indicator.dart';
@@ -45,7 +45,7 @@ class Config {
 
   /// *** Drawer settings *** ///
   // Title
-  static String drawerTitle = "Flangapp";
+  static String drawerTitle = "Cloudnita";
   // Subtitle
   static String drawerSubtitle = "Convert site to app";
   // Background mode
