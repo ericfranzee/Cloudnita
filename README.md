@@ -1,8 +1,6 @@
 # cloudnita_app
 
-A simple web to app Flutter project.
-
-you can commit and improve at anytime
+A new Flutter project.
 
 ## Getting Started
 

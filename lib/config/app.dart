@@ -9,9 +9,9 @@ class Config {
 
   /// *** App config *** ///
   // App name
-  static String appName = "Codecanyon";
+  static String appName = "Cloudnita";
   // App link
-  static String appLink = "https://codecanyon.net/";
+  static String appLink = "https://cloudnita.com/";
   // Display page name without app name (after 1 page)
   static bool displayTitle = true;
   // Main color (any HEX color)
@@ -27,7 +27,7 @@ class Config {
   // User agent
   static String userAgent = "";
   // Admin email
-  static String appEmail = "sitenative@yandex.ru";
+  static String appEmail = "cloudnita0@gmail.com";
   // Template
   static Template appTemplate = Template.tabs;
   // Loading indicator style
@@ -37,17 +37,17 @@ class Config {
 
   /// *** Access ** ///
   // Access to camera
-  static bool accessCamera = true;
+  static bool accessCamera = false;
   // Access to microphone
-  static bool accessMicrophone = true;
+  static bool accessMicrophone = false;
   // Access to geolocation
-  static bool accessLocation = true;
+  static bool accessLocation = false;
 
   /// *** Drawer settings *** ///
   // Title
   static String drawerTitle = "Cloudnita";
   // Subtitle
-  static String drawerSubtitle = "Convert site to app";
+  static String drawerSubtitle = "Cloudnita Web2App";
   // Background mode
   static BackgroundMode drawerBackgroundMode = BackgroundMode.image;
   // Background color (any HEX color)
@@ -71,7 +71,7 @@ class Config {
   // Background image name
   static String splashBackgroundImage = "splash_screen.png";
   // Tagline
-  static String splashTagline = "Top digital assets and services";
+  static String splashTagline = "The biggest web & app creator online";
   // Delay display (seconds)
   static int splashDelay = 4;
   // Logo image name
@@ -81,9 +81,9 @@ class Config {
 
   /// *** PUSH OneSignal settings *** ///
   // App ID
-  static String osAppID = "79224610-f8e6-4659-a6e2-d3bb9175cb19";
+  static String osAppID = "";
   // Signing
-  static String osSigning = "bb08a651499a8d8b9e499c1da2f7935ed432717f0d98993dd0300cd5461c5b20";
+  static String osSigning = "";
   // Enabled android?
   static bool osAndroidEnabled = true;
 
@@ -120,31 +120,31 @@ class Config {
       name: "Home",
       icon: "home-outline.svg",
       type: ActionType.internal,
-      value: "https://codecanyon.net/"
+      value: "https://cloudnita.com/"
     ),
     NavigationItem(
-      name: "Market",
+      name: "Services",
       icon: "albums-outline.svg",
       type: ActionType.internal,
-      value: "https://codecanyon.net/category/mobile"
+      value: "https://cloudnita.com/services"
     ),
     NavigationItem(
-      name: "Cart",
+      name: "Domain",
       icon: "cart-outline.svg",
       type: ActionType.internal,
-      value: "https://codecanyon.net/cart"
+      value: "https://cloudnita.com/domain"
     ),
     NavigationItem(
-      name: "Most popular",
+      name: "blog",
       icon: "flame-outline.svg",
       type: ActionType.internal,
-      value: "https://codecanyon.net/top-sellers"
+      value: "https://cloudnita.com/blog"
     ),
     NavigationItem(
-      name: "Forum",
+      name: "About",
       icon: "chatbubbles-outline.svg",
       type: ActionType.internal,
-      value: "https://forums.envato.com/"
+      value: "https://cloudnita.com/about"
     )
   ];
   // Bar app navigation
@@ -156,7 +156,7 @@ class Config {
       value: ""
     ),
     NavigationItem(
-      name: "Help center",
+      name: "Web/App Creators",
       icon: "ellipsis-horizontal-outline.svg",
       type: ActionType.openModal,
       value: ""
@@ -165,34 +165,34 @@ class Config {
   // Modal app navigation
   static List<NavigationItem> modalNavigation = [
     NavigationItem(
-      name: "Buying and Item Support",
+      name: "Cloudnita Business",
       icon: "help-buoy-outline.svg",
       type: ActionType.internal,
-      value: "https://help.market.envato.com/hc/en-us/categories/200216004"
+      value: "https:Biz.cloudnita.com"
     ),
     NavigationItem(
-      name: "Licenses",
-      icon: "cube-outline.svg",
-      type: ActionType.internal,
-      value: "https://help.market.envato.com/hc/en-us/sections/200616950"
-    ),
-    NavigationItem(
-      name: "Your Account",
-      icon: "person-circle-outline.svg",
-      type: ActionType.internal,
-      value: "https://help.market.envato.com/hc/en-us/categories/200211970"
-    ),
-    NavigationItem(
-      name: "Copyright and Trademarks",
+      name: "Cloudnita Suite",
       icon: "ribbon-outline.svg",
       type: ActionType.internal,
-      value: "https://help.market.envato.com/hc/en-us/categories/200211980"
+      value: "https://suite.cloudnita.com"
     ),
     NavigationItem(
-      name: "Tax & Compliance",
+      name: "Cloudnita Store",
       icon: "card-outline.svg",
       type: ActionType.internal,
-      value: "https://help.market.envato.com/hc/en-us/categories/200211990"
+      value: "https://store.cloudnita.com"
+    ),
+    NavigationItem(
+      name: "Cloudnita Profiler",
+      icon: "person-circle-outline.svg",
+      type: ActionType.internal,
+      value: "https://cv.cloudnita.com"
+    ),
+    NavigationItem(
+      name: "Cloudnita Web2App",
+      icon: "cube-outline.svg",
+      type: ActionType.internal,
+      value: "https://app.cloudnita.com"
     ),
   ];
 }
